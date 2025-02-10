@@ -6,6 +6,7 @@ import { FaMoon } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
 import Badge from '@mui/material/Badge';
 import { useDispatch, useSelector } from 'react-redux';
+import { setDrawer } from '../redux/slices/basketSlice';
 
 
 
@@ -35,7 +36,7 @@ function Header() {
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
             <div className='flex-row' onClick={() => navigate("/")}>
                 <img className='logo' src="./src/images/logo.png" />
-                <p className='logo-text'>Sevv A.Ş</p>
+                <p className='logo-text'>SEVVAL A.Ş</p>
             </div>
 
             <div className='flex-row'>
